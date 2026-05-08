@@ -1,0 +1,10 @@
+.pages-footer{
+    color: #ffffff;
+    background: #3e2723;
+    height: 60px;
+    margin-top: 1.6rem;
+}
+.pages-footer p{
+    text-align: center;
+    padding: 20px;
+}

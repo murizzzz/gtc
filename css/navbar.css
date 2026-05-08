@@ -1,0 +1,35 @@
+.navbar{
+    background: #3e2723;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-link a{
+    font-weight: 800;
+}
+.nav-link a:hover,
+.nav-link a:active{
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #faf0ca;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    cursor: pointer;
+}

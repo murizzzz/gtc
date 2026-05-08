@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Arial', Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #3e2723;
+    background: #ffffff;
+}
+.btn-primary{
+    display: inline-block;
+    padding: 0.9rem 1.5rem;
+    border-radius: 9999px;
+    background: #3e2723;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+.btn-primary:hover{
+     transition: 0.3s ease;
+     transform: scale(1.05);
+     cursor: pointer;
+     background: #8b6b3f;
+}
+.page-banner{
+    justify-content: center;
+    background: linear-gradient(to right, #3e2723, #6d4c41, #a1887f, #efebe9);
+    padding: 2rem;
+    color: #ffffff;
+    text-align: center;
+}

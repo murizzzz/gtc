@@ -1,0 +1,29 @@
+.main-section{
+     background: url(https://images.unsplash.com/photo-1562774053-701939374585) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    color: #ffffff;
+    width: 100%;
+}
+.main-section div{
+    text-align: center;
+}
+.main-section div h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    font-size: 1.2rem;
+}
